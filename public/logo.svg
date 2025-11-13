@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Planet outline -->
+  <circle cx="32" cy="32" r="22" stroke="#D4AF37" stroke-width="2.5" fill="none"/>
+  <!-- Ring -->
+  <ellipse cx="32" cy="36" rx="26" ry="10" transform="rotate(-12 32 36)" stroke="#B9962E" stroke-width="2" fill="none" opacity="0.9"/>
+  <!-- Inner glow -->
+  <radialGradient id="g" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(24 20) rotate(45) scale(36)">
+    <stop stop-color="#FFFFFF" stop-opacity="0.16"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </radialGradient>
+  <circle cx="32" cy="32" r="18" fill="url(#g)"/>
+  <!-- TT monogram -->
+  <g fill="#F5F7FB">
+    <!-- First T -->
+    <rect x="22" y="24" width="20" height="3.2" rx="1.6"/>
+    <rect x="28.4" y="24" width="3.2" height="16" rx="1.6"/>
+    <!-- Second T -->
+    <rect x="22" y="31.2" width="20" height="3.2" rx="1.6"/>
+    <rect x="36.4" y="31.2" width="3.2" height="12" rx="1.6"/>
+  </g>
+  <!-- Star -->
+  <g transform="translate(46 14)" fill="#F5F7FB">
+    <circle cx="0" cy="0" r="1.4"/>
+    <path d="M0 -3 L0 3 M-3 0 L3 0" stroke="#D4AF37" stroke-width="1.2" stroke-linecap="round"/>
+  </g>
+</svg>

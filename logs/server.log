@@ -3,7 +3,13 @@
 > vite
 
 
-  VITE v5.4.20  ready in 214 ms
+  VITE v5.4.20  ready in 213 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.27.72:3000/
+Files in the public directory are served at the root path.
+Instead of /public/logo.svg, use /logo.svg.
+Files in the public directory are served at the root path.
+Instead of /public/logo.svg, use /logo.svg.
+Files in the public directory are served at the root path.
+Instead of /public/logo.svg, use /logo.svg.

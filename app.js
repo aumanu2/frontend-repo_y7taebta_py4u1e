@@ -74,7 +74,9 @@
             </div>
           </div>
           <div class="card tile">
-            <h3 class="mt-0" style="color:var(--gold)">This Season's Focus</h3>
+            <h3 class="mt-0" style="color:var(--gold)">
+              <img src="/public/logo.svg" alt="Team Titans Logo" style="height:28px; vertical-align:middle; margin-right:8px"> This Season's Focus
+            </h3>
             <p>Autonomous navigation, robust suspension, modular science payloads, and mission-ready software stack.</p>
             <div class="mt-16 banner">We are recruiting new members this year. Complete posted challenges to apply for domains like Mechanical, Electronics, Software, Science, and Operations.</div>
           </div>
@@ -86,7 +88,7 @@
           <h2>Our Proud Partners</h2>
           <p class="sub">Grateful for the organizations fueling our journey.</p>
           <div class="partners">
-            <div class="partner">Partner Logo</div>
+            <div class="partner"><img src="/public/logo.svg" alt="Partner Logo" style="height:24px"></div>
             <div class="partner">Partner Logo</div>
             <div class="partner">Partner Logo</div>
             <div class="partner">Partner Logo</div>
@@ -153,7 +155,7 @@
           <h2>Gallery</h2>
           <p class="sub">Glimpses of our builds, tests, and competitions.</p>
           <div class="gallery-grid">
-            ${Array.from({length:9}).map((_,i)=>`<img alt="Gallery Image ${i+1}" src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1200&auto=format&fit=crop">`).join('')}
+            ${Array.from({length:9}).map((_,i)=>`<img alt="Gallery Image ${i+1}" src="https://images.unsplash.com/photo-1716114543498-092396aee71e?ixid=M3w3OTkxMTl8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjMwMjk2MjJ8&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80">`).join('')}
           </div>
         </div>
       </section>
