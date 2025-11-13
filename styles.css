@@ -142,6 +142,11 @@ form.card.tile{padding:24px}
 .form-row{display:grid; grid-template-columns:1fr 1fr; gap:14px}
 @media (max-width:720px){.form-row{grid-template-columns:1fr}}
 
+/* Contact form spacing tweaks */
+#contact-form .form-row{gap:20px}
+#contact-form .form-row + .form-row{margin-top:18px}
+#contact-form .textarea{margin-top:18px !important}
+
 /* Banner */
 .banner{border-left:3px solid var(--gold); padding:12px 14px; background:rgba(212,175,55,.06); color:var(--white); border-radius:10px}
 
